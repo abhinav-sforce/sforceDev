@@ -1,0 +1,35 @@
+<apex:page standardController="Account" extensions="DealerDMIReAssignmentRequest" >
+    
+    <apex:sectionHeader title="Dealer DMI Re-Assignment" subtitle="{!Account.Name}"/>
+    
+    <apex:form >
+        
+        <apex:pageBlock rendered="{!(IF(approvalPending == true, true, false))}">
+            
+            <apex:pageMessage severity="info"  strength="1"  summary="Approval Process is already pending for this record"/>
+    
+            <apex:pageBlockButtons location="bottom">
+                <Apex:commandButton action="{!Cancel}" value="Back" style="width:50px;height:30px"/>
+            </apex:pageBlockButtons>
+        </apex:pageBlock>
+        
+        <apex:pageBlock rendered="{!(IF(approvalPending == false, true, false))}" mode="Edit">
+            
+            <apex:pageBlockButtons location="bottom">
+                <apex:commandButton action="{!submitAndProcessApprovalRequest}" value="Submit for Approval"/>
+                <Apex:commandButton action="{!Cancel}" value="Cancel"/>
+            </apex:pageBlockButtons>
+            
+            <apex:pageBlockSection columns="1">
+                <apex:outputField value="{!Account.Name}"/>
+                
+                <apex:pageBlockSectionItem >
+                    <apex:outputLabel value="Current DMI" />
+                    <apex:outputField value="{!Account.DMI__c}"/>
+                </apex:pageBlockSectionItem>
+                
+                <apex:inputField value="{!Account.Requested_DMI__c}"/>
+            </apex:pageBlockSection>
+        </apex:pageBlock>
+    </apex:form>
+</apex:page>
