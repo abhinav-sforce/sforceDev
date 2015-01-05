@@ -1,0 +1,32 @@
+global class SortingWrapperUsingComparable implements Comparable {
+    
+	public Opportunity oppy;
+
+    // Constructor
+	public SortingWrapperUsingComparable(Opportunity op) {
+		oppy = op;
+	}
+    
+    // Compare opportunities based on the opportunity amount.
+    global Integer compareTo(Object compareTo) {
+    
+        // Cast argument to OpportunityWrapper
+    	SortingWrapperUsingComparable compareToOppy = (SortingWrapperUsingComparable)compareTo;
+    
+        // The return value of 0 indicates that both elements are equal.
+    	Integer returnValue = 0;
+    
+        if (oppy.Amount > compareToOppy.oppy.Amount) {
+    		
+            // Set return value to a positive value.
+    		returnValue = 1;
+            
+    	} else if (oppy.Amount < compareToOppy.oppy.Amount) {
+    
+            // Set return value to a negative value.
+    		returnValue = -1;
+    	}
+        
+    	return returnValue;
+    }
+}

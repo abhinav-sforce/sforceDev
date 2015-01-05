@@ -36,3 +36,154 @@
  WARN [2015-01-05 12:20:07,364] (ComponentFactory.java:getComponentByFilePath:622) - No id found for filepath 'applicationManifests/Workbench', tagging as component of type 'Unknown'
 ERROR [2015-01-05 12:20:07,364] (ProjectPackageList.java:generateComponents:481) - Filepath-zip mapping is null or empty for package 'Salesforce Connected Apps' [0A390000000DYcfCAG] - skipping component generation
  WARN [2015-01-05 12:20:12,474] (ProjectPackageList.java:saveResources:1158) - Component list in project package 'Salesforce Connected Apps' is empty.  No resources to save.
+ WARN [2015-01-05 12:43:11,555] (ComponentFactory.java:getCompositeComponentFromComponent:1102) - Unable to load existing 'classes/Testing.cls-meta.xml' from project - associated component's file resource is null.  Assuming new.
+ WARN [2015-01-05 12:43:12,015] (ComponentController.java:deploy:402) - Remote save aborted - project is not online enabled
+ WARN [2015-01-05 12:43:12,395] (Utils.java:loadDocument:794) - Unable to load document: C:\Users\Abhinav\Documents\GitHub\sforceDev\.metadata\.plugins\org.eclipse.core.resources\.projects\AB-sforce\com.salesforce.ide.core\packageCache.xml (The system cannot find the file specified)
+ WARN [2015-01-05 12:43:12,395] (ComponentController.java:run:380) - Unable to update cache with new component Apex Class - cache is not found
+ WARN [2015-01-05 12:43:12,662] (DefaultBuilder.java:applyDirtyMarkers:94) - TODO: apply 'Save locally only...' markers on each resource
+ERROR [2015-01-05 12:44:32,815] (ProjectPackageList.java:generateComponents:481) - Filepath-zip mapping is null or empty for package 'unpackaged' [null] - skipping component generation
+ WARN [2015-01-05 12:46:32,417] (ComponentFactory.java:getComponentByFilePath:622) - No id found for filepath 'modules/Dataloader_Bulk_oauth/ConnectivityDevConfigs/Dataloader_Bulk_oauth_devConfig.ConnectivityDevConfig', tagging as component of type 'Unknown'
+ WARN [2015-01-05 12:46:32,424] (ComponentFactory.java:getComponentByFilePath:622) - No id found for filepath 'modules/Dataloader_Bulk_oauth/modules/sf_com_apps__Dataloader_Bulk_oauth', tagging as component of type 'Unknown'
+ WARN [2015-01-05 12:46:32,437] (ComponentFactory.java:getComponentByFilePath:622) - No id found for filepath 'applicationManifests/Dataloader_Bulk', tagging as component of type 'Unknown'
+ WARN [2015-01-05 12:46:32,439] (ComponentFactory.java:getComponentByFilePath:622) - No id found for filepath 'modules/Dataloader_P5r_oauth/ConnectivityDevConfigs/Dataloader_P5r_oauth_devConfig.ConnectivityDevConfig', tagging as component of type 'Unknown'
+ WARN [2015-01-05 12:46:32,440] (ComponentFactory.java:getComponentByFilePath:622) - No id found for filepath 'modules/Dataloader_P5r_oauth/modules/sf_com_apps__Dataloader_P5r_oauth', tagging as component of type 'Unknown'
+ WARN [2015-01-05 12:46:32,441] (ComponentFactory.java:getComponentByFilePath:622) - No id found for filepath 'applicationManifests/Dataloader_Partner', tagging as component of type 'Unknown'
+ WARN [2015-01-05 12:46:32,442] (ComponentFactory.java:getComponentByFilePath:622) - No id found for filepath 'modules/Forcecom_IDE_oauth/ConnectivityDevConfigs/Forcecom_IDE_oauth_devConfig.ConnectivityDevConfig', tagging as component of type 'Unknown'
+ WARN [2015-01-05 12:46:32,443] (ComponentFactory.java:getComponentByFilePath:622) - No id found for filepath 'modules/Forcecom_IDE_oauth/modules/sf_com_apps__Forcecom_IDE_oauth', tagging as component of type 'Unknown'
+ WARN [2015-01-05 12:46:32,445] (ComponentFactory.java:getComponentByFilePath:622) - No id found for filepath 'applicationManifests/Forcecom_IDE', tagging as component of type 'Unknown'
+ WARN [2015-01-05 12:46:32,446] (ComponentFactory.java:getComponentByFilePath:622) - No id found for filepath 'modules/Forcecom_Migration_Tool_oauth/ConnectivityDevConfigs/Forcecom_Migration_Tool_oauth_devConfig.ConnectivityDevConfig', tagging as component of type 'Unknown'
+ WARN [2015-01-05 12:46:32,447] (ComponentFactory.java:getComponentByFilePath:622) - No id found for filepath 'modules/Forcecom_Migration_Tool_oauth/modules/sf_com_apps__Forcecom_Migration_Tool_oauth', tagging as component of type 'Unknown'
+ WARN [2015-01-05 12:46:32,448] (ComponentFactory.java:getComponentByFilePath:622) - No id found for filepath 'applicationManifests/Forcecom_Migration_Tool', tagging as component of type 'Unknown'
+ WARN [2015-01-05 12:46:32,449] (ComponentFactory.java:getComponentByFilePath:622) - No id found for filepath 'modules/S8e_M4e_Dashboards_oauth/ConnectivityDevConfigs/S8e_M4e_Dashboards_oauth_devConfig.ConnectivityDevConfig', tagging as component of type 'Unknown'
+ WARN [2015-01-05 12:46:32,450] (ComponentFactory.java:getComponentByFilePath:622) - No id found for filepath 'modules/S8e_M4e_Dashboards_oauth/modules/sf_com_apps__S8e_M4e_Dashboards_oauth', tagging as component of type 'Unknown'
+ WARN [2015-01-05 12:46:32,451] (ComponentFactory.java:getComponentByFilePath:622) - No id found for filepath 'applicationManifests/Salesforce_Mobile_Dashboards', tagging as component of type 'Unknown'
+ WARN [2015-01-05 12:46:32,452] (ComponentFactory.java:getComponentByFilePath:622) - No id found for filepath 'modules/S8e_T3h_oauth/ConnectivityDevConfigs/S8e_T3h_oauth_devConfig.ConnectivityDevConfig', tagging as component of type 'Unknown'
+ WARN [2015-01-05 12:46:32,453] (ComponentFactory.java:getComponentByFilePath:622) - No id found for filepath 'modules/S8e_T3h_oauth/modules/sf_com_apps__S8e_T3h_oauth', tagging as component of type 'Unknown'
+ WARN [2015-01-05 12:46:32,454] (ComponentFactory.java:getComponentByFilePath:622) - No id found for filepath 'applicationManifests/Salesforce_Touch', tagging as component of type 'Unknown'
+ WARN [2015-01-05 12:46:32,455] (ComponentFactory.java:getComponentByFilePath:622) - No id found for filepath 'modules/S8e_for_Outlook_oauth/ConnectivityDevConfigs/S8e_for_Outlook_oauth_devConfig.ConnectivityDevConfig', tagging as component of type 'Unknown'
+ WARN [2015-01-05 12:46:32,456] (ComponentFactory.java:getComponentByFilePath:622) - No id found for filepath 'modules/S8e_for_Outlook_oauth/modules/sf_com_apps__S8e_for_Outlook_oauth', tagging as component of type 'Unknown'
+ WARN [2015-01-05 12:46:32,457] (ComponentFactory.java:getComponentByFilePath:622) - No id found for filepath 'applicationManifests/Salesforce_for_Outlook', tagging as component of type 'Unknown'
+ WARN [2015-01-05 12:46:32,458] (ComponentFactory.java:getComponentByFilePath:622) - No id found for filepath 'modules/Workbench_oauth/ConnectivityDevConfigs/Workbench_oauth_devConfig.ConnectivityDevConfig', tagging as component of type 'Unknown'
+ WARN [2015-01-05 12:46:32,459] (ComponentFactory.java:getComponentByFilePath:622) - No id found for filepath 'modules/Workbench_oauth/modules/sf_com_apps__Workbench_oauth', tagging as component of type 'Unknown'
+ WARN [2015-01-05 12:46:32,460] (ComponentFactory.java:getComponentByFilePath:622) - No id found for filepath 'applicationManifests/Workbench', tagging as component of type 'Unknown'
+ERROR [2015-01-05 12:46:32,461] (ProjectPackageList.java:generateComponents:481) - Filepath-zip mapping is null or empty for package 'Salesforce Connected Apps' [0A390000000DYcfCAG] - skipping component generation
+ WARN [2015-01-05 12:46:32,462] (MarkerUtils.java:applyRetrieveMarker:277) - Unable to apply retrieve warning marker to resource - resource is null
+ WARN [2015-01-05 12:46:32,462] (MarkerUtils.java:applyRetrieveMarker:277) - Unable to apply retrieve warning marker to resource - resource is null
+ WARN [2015-01-05 12:46:32,463] (MarkerUtils.java:applyRetrieveMarker:277) - Unable to apply retrieve warning marker to resource - resource is null
+ WARN [2015-01-05 12:46:32,463] (MarkerUtils.java:applyRetrieveMarker:277) - Unable to apply retrieve warning marker to resource - resource is null
+ WARN [2015-01-05 12:46:32,464] (MarkerUtils.java:applyRetrieveMarker:277) - Unable to apply retrieve warning marker to resource - resource is null
+ WARN [2015-01-05 12:46:32,464] (MarkerUtils.java:applyRetrieveMarker:277) - Unable to apply retrieve warning marker to resource - resource is null
+ WARN [2015-01-05 12:46:32,464] (MarkerUtils.java:applyRetrieveMarker:277) - Unable to apply retrieve warning marker to resource - resource is null
+ WARN [2015-01-05 12:46:32,465] (MarkerUtils.java:applyRetrieveMarker:277) - Unable to apply retrieve warning marker to resource - resource is null
+ WARN [2015-01-05 12:46:42,800] (ProjectPackageList.java:saveResources:1158) - Component list in project package 'Salesforce Connected Apps' is empty.  No resources to save.
+ WARN [2015-01-05 12:48:48,405] (ComponentFactory.java:getComponentByFilePath:622) - No id found for filepath 'modules/Dataloader_Bulk_oauth/ConnectivityDevConfigs/Dataloader_Bulk_oauth_devConfig.ConnectivityDevConfig', tagging as component of type 'Unknown'
+ WARN [2015-01-05 12:48:48,405] (ComponentFactory.java:getComponentByFilePath:622) - No id found for filepath 'modules/Dataloader_Bulk_oauth/modules/sf_com_apps__Dataloader_Bulk_oauth', tagging as component of type 'Unknown'
+ WARN [2015-01-05 12:48:48,425] (ComponentFactory.java:getComponentByFilePath:622) - No id found for filepath 'applicationManifests/Dataloader_Bulk', tagging as component of type 'Unknown'
+ WARN [2015-01-05 12:48:48,425] (ComponentFactory.java:getComponentByFilePath:622) - No id found for filepath 'modules/Dataloader_P5r_oauth/ConnectivityDevConfigs/Dataloader_P5r_oauth_devConfig.ConnectivityDevConfig', tagging as component of type 'Unknown'
+ WARN [2015-01-05 12:48:48,425] (ComponentFactory.java:getComponentByFilePath:622) - No id found for filepath 'modules/Dataloader_P5r_oauth/modules/sf_com_apps__Dataloader_P5r_oauth', tagging as component of type 'Unknown'
+ WARN [2015-01-05 12:48:48,425] (ComponentFactory.java:getComponentByFilePath:622) - No id found for filepath 'applicationManifests/Dataloader_Partner', tagging as component of type 'Unknown'
+ WARN [2015-01-05 12:48:48,425] (ComponentFactory.java:getComponentByFilePath:622) - No id found for filepath 'modules/Forcecom_IDE_oauth/ConnectivityDevConfigs/Forcecom_IDE_oauth_devConfig.ConnectivityDevConfig', tagging as component of type 'Unknown'
+ WARN [2015-01-05 12:48:48,425] (ComponentFactory.java:getComponentByFilePath:622) - No id found for filepath 'modules/Forcecom_IDE_oauth/modules/sf_com_apps__Forcecom_IDE_oauth', tagging as component of type 'Unknown'
+ WARN [2015-01-05 12:48:48,425] (ComponentFactory.java:getComponentByFilePath:622) - No id found for filepath 'applicationManifests/Forcecom_IDE', tagging as component of type 'Unknown'
+ WARN [2015-01-05 12:48:48,435] (ComponentFactory.java:getComponentByFilePath:622) - No id found for filepath 'modules/Forcecom_Migration_Tool_oauth/ConnectivityDevConfigs/Forcecom_Migration_Tool_oauth_devConfig.ConnectivityDevConfig', tagging as component of type 'Unknown'
+ WARN [2015-01-05 12:48:48,435] (ComponentFactory.java:getComponentByFilePath:622) - No id found for filepath 'modules/Forcecom_Migration_Tool_oauth/modules/sf_com_apps__Forcecom_Migration_Tool_oauth', tagging as component of type 'Unknown'
+ WARN [2015-01-05 12:48:48,435] (ComponentFactory.java:getComponentByFilePath:622) - No id found for filepath 'applicationManifests/Forcecom_Migration_Tool', tagging as component of type 'Unknown'
+ WARN [2015-01-05 12:48:48,435] (ComponentFactory.java:getComponentByFilePath:622) - No id found for filepath 'modules/S8e_M4e_Dashboards_oauth/ConnectivityDevConfigs/S8e_M4e_Dashboards_oauth_devConfig.ConnectivityDevConfig', tagging as component of type 'Unknown'
+ WARN [2015-01-05 12:48:48,435] (ComponentFactory.java:getComponentByFilePath:622) - No id found for filepath 'modules/S8e_M4e_Dashboards_oauth/modules/sf_com_apps__S8e_M4e_Dashboards_oauth', tagging as component of type 'Unknown'
+ WARN [2015-01-05 12:48:48,435] (ComponentFactory.java:getComponentByFilePath:622) - No id found for filepath 'applicationManifests/Salesforce_Mobile_Dashboards', tagging as component of type 'Unknown'
+ WARN [2015-01-05 12:48:48,445] (ComponentFactory.java:getComponentByFilePath:622) - No id found for filepath 'modules/S8e_T3h_oauth/ConnectivityDevConfigs/S8e_T3h_oauth_devConfig.ConnectivityDevConfig', tagging as component of type 'Unknown'
+ WARN [2015-01-05 12:48:48,445] (ComponentFactory.java:getComponentByFilePath:622) - No id found for filepath 'modules/S8e_T3h_oauth/modules/sf_com_apps__S8e_T3h_oauth', tagging as component of type 'Unknown'
+ WARN [2015-01-05 12:48:48,445] (ComponentFactory.java:getComponentByFilePath:622) - No id found for filepath 'applicationManifests/Salesforce_Touch', tagging as component of type 'Unknown'
+ WARN [2015-01-05 12:48:48,445] (ComponentFactory.java:getComponentByFilePath:622) - No id found for filepath 'modules/S8e_for_Outlook_oauth/ConnectivityDevConfigs/S8e_for_Outlook_oauth_devConfig.ConnectivityDevConfig', tagging as component of type 'Unknown'
+ WARN [2015-01-05 12:48:48,445] (ComponentFactory.java:getComponentByFilePath:622) - No id found for filepath 'modules/S8e_for_Outlook_oauth/modules/sf_com_apps__S8e_for_Outlook_oauth', tagging as component of type 'Unknown'
+ WARN [2015-01-05 12:48:48,445] (ComponentFactory.java:getComponentByFilePath:622) - No id found for filepath 'applicationManifests/Salesforce_for_Outlook', tagging as component of type 'Unknown'
+ WARN [2015-01-05 12:48:48,445] (ComponentFactory.java:getComponentByFilePath:622) - No id found for filepath 'modules/Workbench_oauth/ConnectivityDevConfigs/Workbench_oauth_devConfig.ConnectivityDevConfig', tagging as component of type 'Unknown'
+ WARN [2015-01-05 12:48:48,445] (ComponentFactory.java:getComponentByFilePath:622) - No id found for filepath 'modules/Workbench_oauth/modules/sf_com_apps__Workbench_oauth', tagging as component of type 'Unknown'
+ WARN [2015-01-05 12:48:48,445] (ComponentFactory.java:getComponentByFilePath:622) - No id found for filepath 'applicationManifests/Workbench', tagging as component of type 'Unknown'
+ERROR [2015-01-05 12:48:48,445] (ProjectPackageList.java:generateComponents:481) - Filepath-zip mapping is null or empty for package 'Salesforce Connected Apps' [0A390000000DYcfCAG] - skipping component generation
+ WARN [2015-01-05 12:48:48,445] (MarkerUtils.java:applyRetrieveMarker:277) - Unable to apply retrieve warning marker to resource - resource is null
+ WARN [2015-01-05 12:48:48,445] (MarkerUtils.java:applyRetrieveMarker:277) - Unable to apply retrieve warning marker to resource - resource is null
+ WARN [2015-01-05 12:48:48,445] (MarkerUtils.java:applyRetrieveMarker:277) - Unable to apply retrieve warning marker to resource - resource is null
+ WARN [2015-01-05 12:48:48,445] (MarkerUtils.java:applyRetrieveMarker:277) - Unable to apply retrieve warning marker to resource - resource is null
+ WARN [2015-01-05 12:48:48,445] (MarkerUtils.java:applyRetrieveMarker:277) - Unable to apply retrieve warning marker to resource - resource is null
+ WARN [2015-01-05 12:48:48,455] (MarkerUtils.java:applyRetrieveMarker:277) - Unable to apply retrieve warning marker to resource - resource is null
+ WARN [2015-01-05 12:48:48,455] (MarkerUtils.java:applyRetrieveMarker:277) - Unable to apply retrieve warning marker to resource - resource is null
+ WARN [2015-01-05 12:48:48,455] (MarkerUtils.java:applyRetrieveMarker:277) - Unable to apply retrieve warning marker to resource - resource is null
+ WARN [2015-01-05 12:48:56,945] (ProjectPackageList.java:saveResources:1158) - Component list in project package 'Salesforce Connected Apps' is empty.  No resources to save.
+ WARN [2015-01-05 12:49:08,820] (ConnectionFactory.java:clearCache:220) - Clearing the following cached connections
+ WARN [2015-01-05 12:49:08,840] (DescribeObjectRegistry.java:clearCache:664) - Clearing cached describes
+ WARN [2015-01-05 12:49:08,840] (MetadataFactory.java:clearCache:129) - Clearing the following cached metadata stubs
+ WARN [2015-01-05 12:55:11,602] (ComponentFactory.java:getComponentByFilePath:622) - No id found for filepath 'modules/Dataloader_Bulk_oauth/ConnectivityDevConfigs/Dataloader_Bulk_oauth_devConfig.ConnectivityDevConfig', tagging as component of type 'Unknown'
+ WARN [2015-01-05 12:55:11,609] (ComponentFactory.java:getComponentByFilePath:622) - No id found for filepath 'modules/Dataloader_Bulk_oauth/modules/sf_com_apps__Dataloader_Bulk_oauth', tagging as component of type 'Unknown'
+ WARN [2015-01-05 12:55:11,627] (ComponentFactory.java:getComponentByFilePath:622) - No id found for filepath 'applicationManifests/Dataloader_Bulk', tagging as component of type 'Unknown'
+ WARN [2015-01-05 12:55:11,822] (ComponentFactory.java:getComponentByFilePath:622) - No id found for filepath 'modules/Dataloader_P5r_oauth/ConnectivityDevConfigs/Dataloader_P5r_oauth_devConfig.ConnectivityDevConfig', tagging as component of type 'Unknown'
+ WARN [2015-01-05 12:55:11,824] (ComponentFactory.java:getComponentByFilePath:622) - No id found for filepath 'modules/Dataloader_P5r_oauth/modules/sf_com_apps__Dataloader_P5r_oauth', tagging as component of type 'Unknown'
+ WARN [2015-01-05 12:55:11,825] (ComponentFactory.java:getComponentByFilePath:622) - No id found for filepath 'applicationManifests/Dataloader_Partner', tagging as component of type 'Unknown'
+ WARN [2015-01-05 12:55:11,827] (ComponentFactory.java:getComponentByFilePath:622) - No id found for filepath 'modules/Forcecom_IDE_oauth/ConnectivityDevConfigs/Forcecom_IDE_oauth_devConfig.ConnectivityDevConfig', tagging as component of type 'Unknown'
+ WARN [2015-01-05 12:55:11,830] (ComponentFactory.java:getComponentByFilePath:622) - No id found for filepath 'modules/Forcecom_IDE_oauth/modules/sf_com_apps__Forcecom_IDE_oauth', tagging as component of type 'Unknown'
+ WARN [2015-01-05 12:55:11,833] (ComponentFactory.java:getComponentByFilePath:622) - No id found for filepath 'applicationManifests/Forcecom_IDE', tagging as component of type 'Unknown'
+ WARN [2015-01-05 12:55:11,834] (ComponentFactory.java:getComponentByFilePath:622) - No id found for filepath 'modules/Forcecom_Migration_Tool_oauth/ConnectivityDevConfigs/Forcecom_Migration_Tool_oauth_devConfig.ConnectivityDevConfig', tagging as component of type 'Unknown'
+ WARN [2015-01-05 12:55:11,837] (ComponentFactory.java:getComponentByFilePath:622) - No id found for filepath 'modules/Forcecom_Migration_Tool_oauth/modules/sf_com_apps__Forcecom_Migration_Tool_oauth', tagging as component of type 'Unknown'
+ WARN [2015-01-05 12:55:11,838] (ComponentFactory.java:getComponentByFilePath:622) - No id found for filepath 'applicationManifests/Forcecom_Migration_Tool', tagging as component of type 'Unknown'
+ WARN [2015-01-05 12:55:11,839] (ComponentFactory.java:getComponentByFilePath:622) - No id found for filepath 'modules/S8e_M4e_Dashboards_oauth/ConnectivityDevConfigs/S8e_M4e_Dashboards_oauth_devConfig.ConnectivityDevConfig', tagging as component of type 'Unknown'
+ WARN [2015-01-05 12:55:11,843] (ComponentFactory.java:getComponentByFilePath:622) - No id found for filepath 'modules/S8e_M4e_Dashboards_oauth/modules/sf_com_apps__S8e_M4e_Dashboards_oauth', tagging as component of type 'Unknown'
+ WARN [2015-01-05 12:55:11,844] (ComponentFactory.java:getComponentByFilePath:622) - No id found for filepath 'applicationManifests/Salesforce_Mobile_Dashboards', tagging as component of type 'Unknown'
+ WARN [2015-01-05 12:55:11,845] (ComponentFactory.java:getComponentByFilePath:622) - No id found for filepath 'modules/S8e_T3h_oauth/ConnectivityDevConfigs/S8e_T3h_oauth_devConfig.ConnectivityDevConfig', tagging as component of type 'Unknown'
+ WARN [2015-01-05 12:55:11,846] (ComponentFactory.java:getComponentByFilePath:622) - No id found for filepath 'modules/S8e_T3h_oauth/modules/sf_com_apps__S8e_T3h_oauth', tagging as component of type 'Unknown'
+ WARN [2015-01-05 12:55:11,847] (ComponentFactory.java:getComponentByFilePath:622) - No id found for filepath 'applicationManifests/Salesforce_Touch', tagging as component of type 'Unknown'
+ WARN [2015-01-05 12:55:11,848] (ComponentFactory.java:getComponentByFilePath:622) - No id found for filepath 'modules/S8e_for_Outlook_oauth/ConnectivityDevConfigs/S8e_for_Outlook_oauth_devConfig.ConnectivityDevConfig', tagging as component of type 'Unknown'
+ WARN [2015-01-05 12:55:11,849] (ComponentFactory.java:getComponentByFilePath:622) - No id found for filepath 'modules/S8e_for_Outlook_oauth/modules/sf_com_apps__S8e_for_Outlook_oauth', tagging as component of type 'Unknown'
+ WARN [2015-01-05 12:55:11,852] (ComponentFactory.java:getComponentByFilePath:622) - No id found for filepath 'applicationManifests/Salesforce_for_Outlook', tagging as component of type 'Unknown'
+ WARN [2015-01-05 12:55:11,855] (ComponentFactory.java:getComponentByFilePath:622) - No id found for filepath 'modules/Workbench_oauth/ConnectivityDevConfigs/Workbench_oauth_devConfig.ConnectivityDevConfig', tagging as component of type 'Unknown'
+ WARN [2015-01-05 12:55:11,856] (ComponentFactory.java:getComponentByFilePath:622) - No id found for filepath 'modules/Workbench_oauth/modules/sf_com_apps__Workbench_oauth', tagging as component of type 'Unknown'
+ WARN [2015-01-05 12:55:11,857] (ComponentFactory.java:getComponentByFilePath:622) - No id found for filepath 'applicationManifests/Workbench', tagging as component of type 'Unknown'
+ERROR [2015-01-05 12:55:11,858] (ProjectPackageList.java:generateComponents:481) - Filepath-zip mapping is null or empty for package 'Salesforce Connected Apps' [0A390000000DYcfCAG] - skipping component generation
+ WARN [2015-01-05 12:55:11,861] (MarkerUtils.java:applyRetrieveMarker:277) - Unable to apply retrieve warning marker to resource - resource is null
+ WARN [2015-01-05 12:55:11,862] (MarkerUtils.java:applyRetrieveMarker:277) - Unable to apply retrieve warning marker to resource - resource is null
+ WARN [2015-01-05 12:55:11,863] (MarkerUtils.java:applyRetrieveMarker:277) - Unable to apply retrieve warning marker to resource - resource is null
+ WARN [2015-01-05 12:55:11,863] (MarkerUtils.java:applyRetrieveMarker:277) - Unable to apply retrieve warning marker to resource - resource is null
+ WARN [2015-01-05 12:55:11,864] (MarkerUtils.java:applyRetrieveMarker:277) - Unable to apply retrieve warning marker to resource - resource is null
+ WARN [2015-01-05 12:55:11,864] (MarkerUtils.java:applyRetrieveMarker:277) - Unable to apply retrieve warning marker to resource - resource is null
+ WARN [2015-01-05 12:55:11,865] (MarkerUtils.java:applyRetrieveMarker:277) - Unable to apply retrieve warning marker to resource - resource is null
+ WARN [2015-01-05 12:55:11,866] (MarkerUtils.java:applyRetrieveMarker:277) - Unable to apply retrieve warning marker to resource - resource is null
+ WARN [2015-01-05 12:55:17,476] (ProjectPackageList.java:saveResources:1158) - Component list in project package 'Salesforce Connected Apps' is empty.  No resources to save.
+ WARN [2015-01-05 12:57:01,270] (ConnectionFactory.java:clearCache:220) - Clearing the following cached connections
+ WARN [2015-01-05 12:57:01,290] (DescribeObjectRegistry.java:clearCache:664) - Clearing cached describes
+ WARN [2015-01-05 12:57:01,290] (MetadataFactory.java:clearCache:129) - Clearing the following cached metadata stubs
+ WARN [2015-01-05 16:16:27,023] (ConnectionFactory.java:clearCache:217) - No cached connections
+ WARN [2015-01-05 16:16:27,079] (DescribeObjectRegistry.java:clearCache:661) - No cached describes
+ WARN [2015-01-05 16:16:27,080] (MetadataFactory.java:clearCache:126) - No cached metadata stubs
+ WARN [2015-01-05 17:03:31,259] (ComponentFactory.java:getComponentByFilePath:622) - No id found for filepath 'modules/Dataloader_Bulk_oauth/ConnectivityDevConfigs/Dataloader_Bulk_oauth_devConfig.ConnectivityDevConfig', tagging as component of type 'Unknown'
+ WARN [2015-01-05 17:03:31,279] (ComponentFactory.java:getComponentByFilePath:622) - No id found for filepath 'modules/Dataloader_Bulk_oauth/modules/sf_com_apps__Dataloader_Bulk_oauth', tagging as component of type 'Unknown'
+ WARN [2015-01-05 17:03:31,289] (ComponentFactory.java:getComponentByFilePath:622) - No id found for filepath 'applicationManifests/Dataloader_Bulk', tagging as component of type 'Unknown'
+ WARN [2015-01-05 17:03:31,299] (ComponentFactory.java:getComponentByFilePath:622) - No id found for filepath 'modules/Dataloader_P5r_oauth/ConnectivityDevConfigs/Dataloader_P5r_oauth_devConfig.ConnectivityDevConfig', tagging as component of type 'Unknown'
+ WARN [2015-01-05 17:03:31,299] (ComponentFactory.java:getComponentByFilePath:622) - No id found for filepath 'modules/Dataloader_P5r_oauth/modules/sf_com_apps__Dataloader_P5r_oauth', tagging as component of type 'Unknown'
+ WARN [2015-01-05 17:03:31,299] (ComponentFactory.java:getComponentByFilePath:622) - No id found for filepath 'applicationManifests/Dataloader_Partner', tagging as component of type 'Unknown'
+ WARN [2015-01-05 17:03:31,299] (ComponentFactory.java:getComponentByFilePath:622) - No id found for filepath 'modules/Forcecom_IDE_oauth/ConnectivityDevConfigs/Forcecom_IDE_oauth_devConfig.ConnectivityDevConfig', tagging as component of type 'Unknown'
+ WARN [2015-01-05 17:03:31,299] (ComponentFactory.java:getComponentByFilePath:622) - No id found for filepath 'modules/Forcecom_IDE_oauth/modules/sf_com_apps__Forcecom_IDE_oauth', tagging as component of type 'Unknown'
+ WARN [2015-01-05 17:03:31,299] (ComponentFactory.java:getComponentByFilePath:622) - No id found for filepath 'applicationManifests/Forcecom_IDE', tagging as component of type 'Unknown'
+ WARN [2015-01-05 17:03:31,299] (ComponentFactory.java:getComponentByFilePath:622) - No id found for filepath 'modules/Forcecom_Migration_Tool_oauth/ConnectivityDevConfigs/Forcecom_Migration_Tool_oauth_devConfig.ConnectivityDevConfig', tagging as component of type 'Unknown'
+ WARN [2015-01-05 17:03:31,299] (ComponentFactory.java:getComponentByFilePath:622) - No id found for filepath 'modules/Forcecom_Migration_Tool_oauth/modules/sf_com_apps__Forcecom_Migration_Tool_oauth', tagging as component of type 'Unknown'
+ WARN [2015-01-05 17:03:31,309] (ComponentFactory.java:getComponentByFilePath:622) - No id found for filepath 'applicationManifests/Forcecom_Migration_Tool', tagging as component of type 'Unknown'
+ WARN [2015-01-05 17:03:31,309] (ComponentFactory.java:getComponentByFilePath:622) - No id found for filepath 'modules/S8e_M4e_Dashboards_oauth/ConnectivityDevConfigs/S8e_M4e_Dashboards_oauth_devConfig.ConnectivityDevConfig', tagging as component of type 'Unknown'
+ WARN [2015-01-05 17:03:31,309] (ComponentFactory.java:getComponentByFilePath:622) - No id found for filepath 'modules/S8e_M4e_Dashboards_oauth/modules/sf_com_apps__S8e_M4e_Dashboards_oauth', tagging as component of type 'Unknown'
+ WARN [2015-01-05 17:03:31,309] (ComponentFactory.java:getComponentByFilePath:622) - No id found for filepath 'applicationManifests/Salesforce_Mobile_Dashboards', tagging as component of type 'Unknown'
+ WARN [2015-01-05 17:03:31,309] (ComponentFactory.java:getComponentByFilePath:622) - No id found for filepath 'modules/S8e_T3h_oauth/ConnectivityDevConfigs/S8e_T3h_oauth_devConfig.ConnectivityDevConfig', tagging as component of type 'Unknown'
+ WARN [2015-01-05 17:03:31,319] (ComponentFactory.java:getComponentByFilePath:622) - No id found for filepath 'modules/S8e_T3h_oauth/modules/sf_com_apps__S8e_T3h_oauth', tagging as component of type 'Unknown'
+ WARN [2015-01-05 17:03:31,319] (ComponentFactory.java:getComponentByFilePath:622) - No id found for filepath 'applicationManifests/Salesforce_Touch', tagging as component of type 'Unknown'
+ WARN [2015-01-05 17:03:31,319] (ComponentFactory.java:getComponentByFilePath:622) - No id found for filepath 'modules/S8e_for_Outlook_oauth/ConnectivityDevConfigs/S8e_for_Outlook_oauth_devConfig.ConnectivityDevConfig', tagging as component of type 'Unknown'
+ WARN [2015-01-05 17:03:31,319] (ComponentFactory.java:getComponentByFilePath:622) - No id found for filepath 'modules/S8e_for_Outlook_oauth/modules/sf_com_apps__S8e_for_Outlook_oauth', tagging as component of type 'Unknown'
+ WARN [2015-01-05 17:03:31,319] (ComponentFactory.java:getComponentByFilePath:622) - No id found for filepath 'applicationManifests/Salesforce_for_Outlook', tagging as component of type 'Unknown'
+ WARN [2015-01-05 17:03:31,319] (ComponentFactory.java:getComponentByFilePath:622) - No id found for filepath 'modules/Workbench_oauth/ConnectivityDevConfigs/Workbench_oauth_devConfig.ConnectivityDevConfig', tagging as component of type 'Unknown'
+ WARN [2015-01-05 17:03:31,319] (ComponentFactory.java:getComponentByFilePath:622) - No id found for filepath 'modules/Workbench_oauth/modules/sf_com_apps__Workbench_oauth', tagging as component of type 'Unknown'
+ WARN [2015-01-05 17:03:31,319] (ComponentFactory.java:getComponentByFilePath:622) - No id found for filepath 'applicationManifests/Workbench', tagging as component of type 'Unknown'
+ERROR [2015-01-05 17:03:31,319] (ProjectPackageList.java:generateComponents:481) - Filepath-zip mapping is null or empty for package 'Salesforce Connected Apps' [0A390000000DYcfCAG] - skipping component generation
+ WARN [2015-01-05 17:03:31,349] (MarkerUtils.java:applyRetrieveMarker:277) - Unable to apply retrieve warning marker to resource - resource is null
+ WARN [2015-01-05 17:03:31,349] (MarkerUtils.java:applyRetrieveMarker:277) - Unable to apply retrieve warning marker to resource - resource is null
+ WARN [2015-01-05 17:03:31,349] (MarkerUtils.java:applyRetrieveMarker:277) - Unable to apply retrieve warning marker to resource - resource is null
+ WARN [2015-01-05 17:03:31,349] (MarkerUtils.java:applyRetrieveMarker:277) - Unable to apply retrieve warning marker to resource - resource is null
+ WARN [2015-01-05 17:03:31,349] (MarkerUtils.java:applyRetrieveMarker:277) - Unable to apply retrieve warning marker to resource - resource is null
+ WARN [2015-01-05 17:03:31,349] (MarkerUtils.java:applyRetrieveMarker:277) - Unable to apply retrieve warning marker to resource - resource is null
+ WARN [2015-01-05 17:03:31,349] (MarkerUtils.java:applyRetrieveMarker:277) - Unable to apply retrieve warning marker to resource - resource is null
+ WARN [2015-01-05 17:03:31,349] (MarkerUtils.java:applyRetrieveMarker:277) - Unable to apply retrieve warning marker to resource - resource is null
+ WARN [2015-01-05 17:03:39,725] (ProjectPackageList.java:saveResources:1158) - Component list in project package 'Salesforce Connected Apps' is empty.  No resources to save.

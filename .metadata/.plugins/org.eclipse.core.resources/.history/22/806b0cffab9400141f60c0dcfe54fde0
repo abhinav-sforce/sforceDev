@@ -1,0 +1,17 @@
+<apex:page controller="FieldsGetMapController">
+	<apex:form >
+    	<apex:pageBlock >
+        	<apex:pageBlockTable value="{!accWrapper}" var="acc">
+            	<apex:column headerValue="Map Key (API Name)">
+                    <apex:outputText value="{!acc.fieldAPIName}"/> 
+                </apex:column>
+                <apex:column headerValue="Label">
+                    <apex:outputText value="{!acc.labelName}"/> 
+                </apex:column>
+                <apex:column headerValue="Type">
+                    <apex:outputText value="{!acc.typeValue}"/> 
+                </apex:column>
+            </apex:pageBlockTable>
+        </apex:pageBlock>
+    </apex:form>
+</apex:page>
