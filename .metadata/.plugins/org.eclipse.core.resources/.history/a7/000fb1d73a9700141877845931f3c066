@@ -1,0 +1,8 @@
+<apex:page standardController="contact"> 
+    <apex:pageBlock title="Link Overriding through URLFor"> 
+        <apex:outputLink value="{!URLFOR($Page.mycontact,null, [id=id])}"> 
+            LINK
+        </apex:outputLink> 
+    </apex:pageBlock>
+    <apex:detail relatedList="false"/> 
+</apex:page>

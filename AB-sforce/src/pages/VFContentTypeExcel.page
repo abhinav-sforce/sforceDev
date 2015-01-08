@@ -1,4 +1,4 @@
-<apex:page standardController="Account" contentType="application/vnd.ms-excel">
+<apex:page standardController="Account" contentType="application/vnd.ms-excel#TempExcel.xls">
     <apex:pageBlock title="Contacts">
         <apex:pageBlockTable value="{!account.Contacts}" var="contact">
             <apex:column value="{!contact.Name}"/>
