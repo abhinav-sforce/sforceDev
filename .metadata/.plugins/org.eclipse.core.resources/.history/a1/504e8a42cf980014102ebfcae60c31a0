@@ -1,0 +1,15 @@
+<apex:page controller="FieldSetDetails">
+    <apex:form >
+        <apex:pageBlock title="Contact Details">
+            <apex:pageBlockSection title="Contact">
+                <apex:inputField value="{!con.Name}"/>
+            </apex:pageBlockSection>
+            <apex:pageBlockSection title="Dimensions">
+                <apex:repeat value="{!fields}" var="f">
+                    <apex:inputField value="{!con[f.fieldPath]}"
+                    required="{!OR(f.required, f.dbrequired)}"/>
+                </apex:repeat>
+            </apex:pageBlockSection>
+        </apex:pageBlock>
+    </apex:form>
+</apex:page>

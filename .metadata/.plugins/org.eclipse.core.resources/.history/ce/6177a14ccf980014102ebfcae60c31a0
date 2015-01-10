@@ -1,0 +1,60 @@
+<apex:page showHeader="false" sidebar="false" standardController="Account" extensions="PopUpExtension">
+    <apex:form >
+  <div id="massEdit" role="dialog" aria-live="assertive" aria-describedby="massEditTitle" class="overlayDialog cssDialog inlineEditDialog" style="width: 520px; display: block; margin-top: -53.25px; margin-left: -260px; visibility: visible;">
+    <div class="middle">
+        <div class="innerContent" id="massEditContent">
+            <h2 id="massEditHeader"></h2>
+            <div id="massEditInner">
+                <div class="fieldTableDiv">
+                    <table class="fieldTable" border="0">
+                        <tbody>
+                            <tr class="fieldRow">
+                                <td class="labelCol">Account Name</td>
+                                <td class="dataCol"><apex:inputField value="{!account.name}"/></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <table class="fieldTable">
+                    <tbody>
+                        <tr class="selectionRow">
+                            <td class="labelCol">Apply changes to</td>
+                            <td class="dataCol">
+                                <div class="radio">
+                                    <input type="radio" name="massOrSingleEdit" id="singleEditRadio" checked="checked"/>
+                                    <label for="singleEditRadio">The record clicked</label>
+                                </div>
+                                <div class="radio">
+                                    <input type="radio" name="massOrSingleEdit" id="massEditRadio"/>
+                                    <label for="massEditRadio">All 25 selected records</label>
+                                </div>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                <div class="inlineEditButtons">
+                    <apex:commandButton action="{!saveAccount}" value="Save" onComplete="closeAndRefresh();" status="actionStatus" reRender="pageBlock"/>
+                    <apex:actionStatus id="actionStatus">
+                        <apex:facet name="start"> 
+                            <img src="/img/loading.gif"/>
+                        </apex:facet>
+                    </apex:actionStatus>
+                    <apex:commandButton action="{!saveAccount}" value="Cancel" onComplete="closeAndRefresh();" status="actionStatus" reRender="pageBlock"/>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="bottomRight">
+            <label style="display:none;" for="massEditBlurCatch">'&nbsp;'</label>
+            <input id="massEditBlurCatch" style="width:2px;height:2px;position:absolute;border:0;margin:0;padding:0;background:none;outline:none;z-index:-1;cursor:none;" type="text"/>
+            <div class="bottomLeft">
+        </div>
+    </div>
+</div>
+</apex:form>
+<script>
+        function closeAndRefresh(){
+            window.top.location = '/{!$CurrentPage.parameters.id}';
+        }
+    </script>
+</apex:page>
